@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: pink;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+
+p, h1, h2, h3 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table img {
+    width: 100%;
+    height: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+#container {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#header {
+    min-height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+#header img {
+    width: 120%;
+}
+
+#menu {
+    background-color: maroon;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#menu a {
+    text-decoration: none;
+    color: pink;
+}
+
+#menu div {
+    padding: 10px 10px;
+}
+
+#menu .inactive:hover {
+    background-color: lightyellow;
+}
+
+#menu a:hover {
+    color: maroon;
+}
+
+#content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+#footer {
+    min-height: 30px;
+    margin: 0;
+    padding-top: 5px;
+    background-color: maroon;
+    color: lightyellow;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+}
+
+.border_left {
+    border-left: 1px solid lightyellow;
+}
+
+.border_right {
+    border-right: 1px solid lightyellow;
+}
+
+.border_top {
+    border-top: 1px solid lightyellow;
+}
+
+.border_bottom {
+    border-bottom: 1px solid lightyellow;
+}
+
+.active {
+    background-color: rebeccapurple;
+}
+
+.post {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed maroon;
+}
+
+.post h2 {
+    text-decoration: underline;
+}
+
+.date {
+    font-style: italic;
+    color: #3F3F3F;
+}
